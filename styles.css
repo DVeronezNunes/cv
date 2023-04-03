@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    color: #16FF00;
+    font-family: monospace;
+    font-size: 24px;
+    background-color: #000000;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 4PX;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.underscore {
+    height: 4px;
+    background-color: #FFED00;
+    border: none;
+    width: 28px;
+    margin: 0;
+    
+}
+
+.skill-name, .language-name {
+    padding-bottom: 4px;
+}
+
+.skill-progress, .language-progress{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    
+}
+
+.header {
+    padding-bottom: 32px;
+}
+
+.employment-history-header, .education-history-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name{
+    font-size: 56px;
+    padding-left: 48px;
+    text-align: left; 
+    word-spacing: 100vw;
+}
+
+#details, #employment-history, #skills{
+    padding-bottom: 48px;
+}
+
+
+#principal-container {
+    display: flex;
+}
+
+#left-column {
+    width: 30%;
+    padding-left: 48px;
+    
+}
+
+#left-column-content{
+    border-top: 2px solid #FFED00;
+    border-right: 2px solid #FFED00;
+    padding-top: 48px;
+    padding-right: 48px;
+}
+
+#right-column {
+    width: 70%;    
+    padding-right: 48px;
+    
+}
+
+#right-column-content {
+    border-top: 2px solid #FFED00;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+.skill-item, .language-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    
+}
